@@ -1,3 +1,3 @@
 def my_select(collection)
- # your code here!
+(1..10).find_all { |i|  i % 3 == 0 }
 end
